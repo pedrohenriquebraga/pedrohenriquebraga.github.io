@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 5, 15);
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+p {
+    color: red;
+    font-weight: bold;
+    margin-top: -8px;
+}
+
+.project img {
+    width: 750px;
+    height: 400px;
+    border: 3px solid white;
+}
+
+.project a {
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    color: rgb(17, 0, 255);
+}
